@@ -4,7 +4,7 @@
 #https://comate-ide.bj.bcebos.com/updates/stable/linux/x64/latest.json
 pkgname=comate-bin
 _pkgname=Comate
-pkgver=0.8.4
+pkgver=0.9.0
 _electronversion=37
 pkgrel=1
 pkgdesc="Code as you like, one step ahead, and understand your intelligent code assistant better.(Prebuilt version)"
@@ -34,7 +34,7 @@ source=(
     "${pkgname%-bin}-url-handler.desktop"
     "${pkgname%-bin}.sh"
 )
-source_x86_64=("${pkgname%-bin}-${pkgver}-x86_64.tar.gz::https://comate-ide.cdn.bcebos.com/download/stable/cd5431f3071683a4dc8658f4f7d7b4ad50557640-232443394/${_pkgname}-linux-x64.tar.gz")
+source_x86_64=("${pkgname%-bin}-${pkgver}-x86_64.tar.gz::https://comate-ide.cdn.bcebos.com/download/stable/fd2063aa4971d9e337cfe705ba335840bafb67e5-233283389/${_pkgname}-linux-x64.tar.gz")
 sha256sums=('d28d3fcc0889983b2cb8497cbb446d315585f517803180444371797b61553f6a'
             '14807b90c15a2757d9713664db6a69aa4fab3568e53d84f27de2ab7c8ae85446'
             '0c8fee636da036e57fcde0385bdc698126c4b179de663ad315e8299d483abc9d'
