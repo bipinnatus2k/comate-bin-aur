@@ -40,7 +40,7 @@ sha256sums=('d28d3fcc0889983b2cb8497cbb446d315585f517803180444371797b61553f6a'
             '0c8fee636da036e57fcde0385bdc698126c4b179de663ad315e8299d483abc9d'
             '787bf0078b80c66fa5b8191991700afd6e32e9f285cdb32f69791b8894c86fd5'
             'e0ab2fe87491fabd9c7886f22c6929169edb508be832036a02698760b721f207')
-sha256sums_x86_64=('9ca191112b874119484e5843b192b58662c6e413a24d5427bdccfda31a90f480')
+sha256sums_x86_64=('d69b92e7c2a28e646d810b9453f6055c63f1b192de35b8b9787dcd226e8df5e8')
 _get_electron_version() {
     _elec_ver="$(strings "${srcdir}/${_pkgname}-linux-x64/${pkgname%-bin}" | grep '^Chrome/[0-9.]* Electron/[0-9]' | cut -d'/' -f3 | cut -d'.' -f1)"
     echo -e "The electron version is: \033[1;31m${_elec_ver}\033[0m"
